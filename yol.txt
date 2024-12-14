@@ -1,3 +1,26 @@
 Merrahaba arkadaşlar bu projede nextjs ile bir fatura uygulaması yazacağım. 
+
+1)
 Öncelikle github da repositoryimizi oluşturuyoruz.
-Sonrasında nextjs dökümanına gidip  https://nextjs.org/docs/app/getting-started/installation  npx create-next-app@latest bu komutla kurulum yapıyoruz
+googlea "nextjs documentation" yazdım ve ilk linke girdim.
+Sonrasında nextjs dökümanına gidip  https://nextjs.org/docs/app/getting-started/installation  npx create-next-app@latest bu komutla kurulum yapıyoruz.
+
+2) postgresql için prisma kuruyoruz
+googlea "prisma orm postgresql" yazıyoruz.
+npm install pg
+npm install @prisma/adapter-pg 
+bu paketleri kuruyorum.
+Sonrasında npx prisma init diyorum bunu da dokümantasyondan okuyorum. 
+https://www.prisma.io/docs/getting-started/quickstart-sqlite
+
+3) Auth
+authu yapabilmek için bir guide gerekiyordu. Bu guideı bulabilmek adına googlea "how to authentication in prisma and postgres nextjs" yazdım
+ilk gelen medium makalesine tıkladım. orada ki makaleyi bastan sona okuyup prisma alanlarını aldım
+
+
+4) Auth için tasarım gerekti bunun için tasarım alanlarını olusturmya başladım. ama tasarımları görebilmem için önce route yapabilmem gerekiyordu.
+googlea "how to nextjs route" yazdım. ve nextjs dökümanına gittim ama bir bok anlamadım.  https://www.geeksforgeeks.org/next-js-routing/ sonra burada ki anlatıma girdim ve biraz anladım. Burada klasörler üstüne bir rotalama varmış. 
+
+rotalamalarda hangi rotalar tanımlı görmek adına npx next-list bunu kurdum ve kullanacağım. bunu googlea "how to nextjs route listing" yazıp reddit sayfasında ki son yorumdan  buldum ve işimi çözdü.
+
+5) auth kısmında  https://nextjs.org/docs/app/building-your-application/authentication burada ki adımları tek tek uyguladım. Hem kodu okudum hemde kodu yazdım. 
